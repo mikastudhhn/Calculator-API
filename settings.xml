@@ -11,7 +11,7 @@
     <server>
       <id>github</id>
       <username>mikastudhhn</username>
-      <password>${env.GITHUB_TOKEN}</password>
+      <password>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</password>
     </server>
   </servers>
   <profiles>
