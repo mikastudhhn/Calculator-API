@@ -5,15 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.mika.hhn</groupId>
-    <artifactId>Calculator-API</artifactId>
+    <artifactId>calculator-api</artifactId>
     <version>1.0.0</version>
-
-    <name>Calculator-API</name>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gpg.skip>true</gpg.skip>
     </properties>
 
     <build>
