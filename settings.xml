@@ -1,0 +1,27 @@
+<activeProfiles>
+  <activeProfile>github</activeProfile>
+</activeProfiles>
+
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>mikastudhhn</username>
+      <password>${env.GITHUB_TOKEN}</password>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/mikastudhhn/Calculator-API</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+</settings>
